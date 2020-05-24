@@ -1,0 +1,113 @@
+:root {
+  --banana: #FFE3B3;
+  --orange: #FFb072;
+  --peach: #FF6666;
+  --berry: #C9284F;
+}
+
+h2 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+h1,
+h2 {
+  text-align: left;
+  margin: 0;
+}
+
+p {
+  font-size: 24px;
+  text-align: left;
+}
+
+.content-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  width: 60vw;
+  height: fit-content;
+}
+
+.info-container {
+  margin-left: 64px;
+}
+
+.section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.xs {
+  height: 60vh;
+}
+
+.yellow {
+  background-color: var(--banana);
+}
+
+.orange {
+  background-color: var(--orange);
+}
+
+.peach {
+  background-color: var(--peach);
+}
+
+.berry {
+  background-color: var(--berry);
+}
+
+.yellow-color {
+  color: var(--banana);
+}
+
+.orange-color {
+  color: var(--orange);
+}
+
+.peach-color {
+  color: var(--peach);
+}
+
+.berry-color {
+  color: var(--berry);
+}
+
+.animate-slide-up.slide-up {
+  animation: slide-up .8s ease-out;
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.pepsi {
+  background: url(./pepsi.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+}
+
+.mandm {
+  background: url(./mandm.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
