@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import MacSvg from './MacSvg';
 import './index.css';
 
-const FirstSection = () => {
+const SecondSection = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       const [entry] = entries;
@@ -15,7 +15,7 @@ const FirstSection = () => {
   });
 
   return (
-    <div className="section xs berry">
+    <div id="sectionTwo" className="section berry">
       <div className="content-box yellow-color">
         <MacSvg />
         <div className="info-container">
@@ -27,4 +27,4 @@ const FirstSection = () => {
   )
 };
 
-export default FirstSection;
+export default SecondSection;

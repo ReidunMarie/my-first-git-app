@@ -4,28 +4,16 @@ import pepsi from './pepsi.jpg';
 import mandm from './mandm.jpg';
 import './App.css';
 import './styles.css';
-import FirstSection from './FirstSection';
+import TopBar from './TopBar';
+import FirstSection from './Section1';
+import SecondSection from './Section2';
 
 function App() {
   return (
     <div className="App">
-      <div className="section yellow berry-color">
-        <h1>Welcome to my playground</h1>
-      </div>
+      <TopBar />
       <FirstSection />
-      <header className="App-header">
-        <div className="mandm img" />
-        <div className="pepsi img" />
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SecondSection />
     </div>
   );
 }
