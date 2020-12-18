@@ -1,12 +1,23 @@
-html{
+@font-face {
+  font-family: aileron;
+  src: url('./fonts/Aileron-Regular.otf');
+}
+
+html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: aileron;
+}
+
 
 :root {
   --banana: #FFE3B3;
   --orange: #FFb072;
   --peach: #FF6666;
   --berry: #C9284F;
+  --black: #303030;
 }
 
 h2 {
@@ -69,6 +80,10 @@ p {
   background-color: var(--berry);
 }
 
+.black {
+  background-color: var(--black);
+}
+
 .yellow-color {
   color: var(--banana);
 }
@@ -85,6 +100,9 @@ p {
   color: var(--berry);
 }
 
+.black-color {
+ color: var(--black);
+}
 .animate-slide-up.slide-up {
   animation: slide-up .8s ease-out;
 }

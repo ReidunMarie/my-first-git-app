@@ -15,8 +15,8 @@ const SecondSection = () => {
   });
 
   return (
-    <div id="sectionTwo" className="section berry">
-      <div className="content-box yellow-color">
+    <div id="sectionTwo" className="section">
+      <div className="content-box black-color">
         <MacSvg />
         <div className="info-container">
           <h2 className="animate-slide-up">Front-End utvikler</h2>
