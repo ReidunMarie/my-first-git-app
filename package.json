@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "classnames": "^2.2.6",
     "dnb-ui-lib": "^8.0.1",
+    "gsap": "^3.6.0",
     "polished": "^4.0.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

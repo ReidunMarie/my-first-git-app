@@ -10,6 +10,7 @@ const Row = styled.div`
   display: flex;
   flex-direction: row;
   position: absolute;
+  margin-bottom: 2rem;
 `;
 const DotContainer = styled.div`
   display: flex;
