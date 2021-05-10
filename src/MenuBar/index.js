@@ -6,6 +6,7 @@ import "./styles.css"
 
 function MenuBar() {
   return (
+    <div className="menu-container">
     <div id="menu-bar">
     <div>
     <MenuButton />
@@ -18,6 +19,7 @@ function MenuBar() {
     </div>
     <div>
     <Button variant="tertiary" icon={loupe} icon_position="left" text="Søk etter instrument" />
+    </div>
     </div>
     </div>
   );

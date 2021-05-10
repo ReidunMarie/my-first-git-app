@@ -1,9 +1,20 @@
+:root {
+  --max-width: 1400px;
+}
+
+.menu-container {
+  width: 100%;
+  padding: 0 1rem;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+ display: flex;
+ justify-content: center;
+}
+
 #menu-bar {
+    width: var(--max-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
-   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 #menu-bar div {
@@ -53,4 +64,15 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+}
+
+/* Modal */
+#meny-modal-title,
+#meny-modal-content {
+  width: var(--max-width);
+margin: 0 auto;
+}
+
+#meny-modal.dnb-modal__content--drawer .dnb-modal__content__inner {
+  height: unset !important;
 }
