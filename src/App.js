@@ -6,7 +6,16 @@ import './App.css'
 import './styles.css'
 import Mobile from "./Mobile";
 import 'dnb-ui-lib/style'
+import MenuBar from './MenuBar'
+
 function App() {
+  return (
+    <div className="App">
+      <MenuBar />
+    </div>
+  );
+}
+/*function App() {
   return (
     <div className="App">
       <Mobile />
